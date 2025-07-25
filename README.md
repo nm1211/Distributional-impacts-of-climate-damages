@@ -53,4 +53,5 @@ CScontribution=CSfactor*Cons represents, the total consumer surplus loss of a co
 - Share of good in the change of consumer surplus for the highest income segment
 - Compute food group driver of consumer surplus loss for the lowest consumption segment for each country 
 
+## compute consumption elasticity (\alpha)
 
