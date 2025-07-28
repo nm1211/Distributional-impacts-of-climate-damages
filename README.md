@@ -16,17 +16,17 @@ This file explains files used for our analysis.
   - own_price_elasticity: own price elasticity.xlsx, own prices elasticities based on Muhammad et al (2011), available in https://www.ers.usda.gov/publications/pub-details?pubid=47581 
 
 # File(s) for analysis:
-Main.R: main r script includes:
+## Main.R: main r script includes:
 - Data cleaning, structuring and merge.
 - Computation of Consumer surplus contribution and Consumption elasticity
 - Analysis: correlations, regressions and plots
 
-SA_own_price_elast.R: r script for sensitivity analysis using own price elasticities, it includes:
+## SA_own_price_elast.R: r script for sensitivity analysis using own price elasticities, it includes:
 - Data cleaning, structuring and merge.
 - Computation of Consumer surplus contribution based on compensation variation
 - Analysis: correlations, regressions and plots
 
-SA_income effects.R: r script for sensitivity analysis for income effects, it includes:
+## SA_income effects.R: r script for sensitivity analysis for income effects, it includes:
 - follows Main.R
 - Computation of Income effects
   
