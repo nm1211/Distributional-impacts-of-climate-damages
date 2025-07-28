@@ -21,12 +21,12 @@ Main.R: main r script includes:
 - Computation of Consumer surplus contribution and Consumption elasticity
 - Analysis: correlations, regressions and plots
 
-SA_own_price_elast.R
+SA_own_price_elast.R: r script for sensitivity analysis using own price elasticities, it includes:
 - Data cleaning, structuring and merge.
 - Computation of Consumer surplus contribution based on compensation variation
 - Analysis: correlations, regressions and plots
 
-SA_income effects.R
+SA_income effects.R: r script for sensitivity analysis for income effects, it includes:
 - follows Main.R
 - Computation of Income effects
   
