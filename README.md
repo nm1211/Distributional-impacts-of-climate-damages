@@ -3,7 +3,7 @@
 This file explains files used for our analysis.
 # Data used and their sources
 - gcd_raw: HH_consumption_GCD.csv, Household consumption from the Global Consumption Database, available in: https://datatopics.worldbank.org/consumption/detail
-- price_vec: total_value_capture_per_sector_change_in_Mio_USD.xlsx, Price changes for GTAP sectors
+- price_vec: cons_consumptionpatterns_increases_in_prices_through_system_world_market.xlsx, Price changes for GTAP sectors
 - gcd_mapper: Appendix_mapping_GCD_GTAP.csv, Mapper to match GTAP sectors to GCD data
 - CP_elast_ low and CP_elast middle: Cross price elasticity based on Cornelsen et al. (2015), available in https://pubmed.ncbi.nlm.nih.gov/25236930/
 - GDP_country: GDP per capita in PPP for the year 2019 from WDI, available in https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD
