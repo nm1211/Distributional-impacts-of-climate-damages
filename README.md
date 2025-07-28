@@ -21,9 +21,14 @@ Main.R: main r script includes:
 - Computation of Consumer surplus contribution and Consumption elasticity
 - Analysis: correlations, regressions and plots
 
+SA_own_price_elast.R
+- Data cleaning, structuring and merge.
+- Computation of Consumer surplus contribution based on compensation variation
+- Analysis: correlations, regressions and plots
 
 SA_income effects.R
 - follows Main.R
-- Computation of Income effects 
+- Computation of Income effects
+  
 # Maps:
 mapped using QGIS based on CS_change_exp.csv
