@@ -20,6 +20,8 @@ Main.R: main r script includes:
 - Data cleaning, structuring and merge.
 - Computation of Consumer surplus contribution and Consumption elasticity
 - Analysis: correlations, regressions and plots
+
+
 SA_income effects.R
 - follows Main.R
 - Computation of Income effects 
