@@ -3,14 +3,17 @@
 This file explains files used for our analysis.
 # Data used and their sources
 ## Main Analysis
-- gcd_raw: HH_consumption_GCD.csv, household consumption from the Global Consumption Database, available in: https://datatopics.worldbank.org/consumption/detail
+- gcd_raw: HH_consumption_GCD.csv, household consumption from the Global Consumption Database (GCD), available in: https://datatopics.worldbank.org/consumption/detail
 - price_vec: cons_consumptionpatterns_increases_in_prices_through_system_world_market.xlsx, price changes for GTAP sectors based on MRIO
-- gcd_mapper: Appendix_mapping_GCD_GTAP.csv, mapper to match GTAP sectors to GCD data
-- per_capita_consumption: per_capita_consumption.csv
+- gcd_mapper: Appendix_mapping_GCD_GTAP.csv, mapper to match GTAP sectors (GTAP version 10) to GCD data.
+  The matching procedure is based on Dorband et al. (2019), who matched GTAP sectors (version 9) with GCD data. Available in: https://www.sciencedirect.com/science/article/pii/S0305750X18304212#s0130 
+- per_capita_consumption: per_capita_consumption.csv, from the GCD, available in: https://datatopics.worldbank.org/consumption/detail 
 - CP_elast_ low and CP_elast middle: Cross price elasticity based on Cornelsen et al. (2015), available in https://pubmed.ncbi.nlm.nih.gov/25236930/
 - GDP_country: GDP per capita in PPP for the year 2019 from WDI, available in https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD
 - gini_coefficient: Gini coefficient from the WDI (latest estimate for each country), available in: https://data.worldbank.org/indicator/SI.POV.GINI
 - latitude: Latitude from the CSGNetwork (2021), available in: http://www.csgnetwork.com/llinfotable.html
+- country codes: To merge data files from GCD countries to GTAP countries, country codes are used from Aguiar et al. (2019), Table A.3. Available in: https://lpvageojs02.it.purdue.edu/ojs/index.php/jgea/article/view/77/96
+
 ## Senstivity Analysis
   - total_value_capture_per_sector_change_in_Mio_USD: total_value_capture_per_sector_change_in_Mio_USD.xlsx, Total value captured in million USD per each sector
   - own_price_elasticity: own price elasticity.xlsx, own prices elasticities based on Muhammad et al (2011), available in https://www.ers.usda.gov/publications/pub-details?pubid=47581 
