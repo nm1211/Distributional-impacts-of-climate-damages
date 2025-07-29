@@ -1,0 +1,107 @@
+Product.or.Service;GTAPsector		
+Passenger Transport by Air;atp		
+Beer;b_t		
+Coffee	 Tea and Cocoa;b_t	
+Mineral Waters	 Soft Drinks	 Fruit and Vegetable Juices;b_t
+Spirits;b_t		
+Tobacco;b_t		
+Wine;b_t		
+Telephone and Telefax Services;cmn		
+Beef and Veal;cmt		
+Narcotics;bph		
+Pharmaceuticals Products;bph		
+Audio-Visual	 Photographic and Information Processing Equipment;ele	
+Telephone and Telefax Equipment;ele		
+Electricity;ely		
+Gas;gdt.gas		
+Shoes and Other Footwear;lea		
+Furniture and Furnishings;lum		
+Cheese;mil		
+Fresh Milk;mil		
+Preserved Milk and Other Milk Products;mil		
+Animal Drawn Vehicles;mvh		
+Bicycles;mvh		
+Major Durables for Outdoor and Indoor Recreation;mvh		
+Motor Cars;mvh		
+Motor Cycles;mvh		
+Eggs and Egg-Based Products;oap		
+Actual and Imputed Rentals for Housing;obs		
+Bread;ofd		
+Confectionery	 Chocolate and Ice Cream;ofd	
+Food Products n.e.c.;ofd		
+Fresh	 Chilled or Frozen Fish and Seafood;ofd	
+Frozen	 Preserved or Processed Fruit and Fruit-based Product;ofd	
+Frozen	 Preserved or Processed Vegetables and Vegetable-based Product;ofd	
+Jams	 Marmalades and Honey;ofd	
+Other Bakery Products;ofd		
+Other Cereals	 Flour and Other Products;ofd	
+Pasta Products;ofd		
+Preserved or Processed Fish and Seafood;ofd		
+Insurance;ofi		
+Other Financial Services n.e.c.;ofi		
+Jewellery	 Clocks and Watches;ome	
+Major Household Appliances Whether Electric or Not;ome		
+Major Tools and Equipment;ome		
+Small Electric Household Appliances;ome		
+Therapeutic Appliances and Equipment;ome		
+Appliances	 Articles and Products for Personal Care;omf	
+Glassware	 Tableware and Household Utensils;omf	
+Non-Durable Household Goods;omf		
+Other Medical Products;omf		
+Other Recreational Items and Equipment;omf		
+Small Tools and Miscellaneous Accessories;omf		
+Lamb	 Mutton and Goat;omt	
+Other Meats and Meat Preparations;omt		
+Pork;omt		
+Poultry;omt		
+Cultural services;osg		
+Education;edu		
+Postal Services;osg		
+Social Protection;hht		
+Combined Passenger Transport;otp		
+Other Purchase Transport Services;otp		
+Passenger Transport by Railway;otp		
+Passenger Transport by Road;otp		
+Fuels and Lubricants for Personal Transport Equipment;p_c		
+Other Fuels;p_c.coa		
+Rice;pdr		
+Newspapers	 Books and Stationery;ppp	
+Recording Media;ppp		
+Accommodation Services;ros		
+Dental Services;ros		
+Domestic Services;ros		
+Hairdressing Salons and Personal Grooming Establishments;ros		
+Hospital Services;ros		
+Household Services;ros		
+Medical Services;ros		
+Miscellaneous Services Relating to the Dwelling;ros		
+Other Services n.e.c.;ros		
+Package Holidays;ros		
+Paramedical Services;ros		
+Recreational and Sporting Services;ros		
+Veterinary and Other Services for Pets;ros		
+Sugar;sgr		
+Carpets and Other Floor Coverings;tex		
+Household Textiles;tex		
+Catering Service;afs		
+Cleaning	 Repair and Hire of Clothing;trd	
+Maintenance and Repair of Other Major Durables for Recreation and Culture;trd		
+Maintenance and Repair of Personal Transport Equipment;trd		
+Maintenance and Repair of the Dwelling;trd		
+Other Services in Respect of Personal Transport Equipment;trd		
+Repair and Hire of Footwear;trd		
+Repair of Audio-Visual	 Photographic and Information Process. Equipment;trd	
+Repair of Furniture	 Furnishings and Floor Coverings;trd	
+Repair of Household Appliances;trd		
+Fresh or Chilled Fruit;v_f		
+Fresh or Chilled Potatoes;v_f		
+Fresh or Chilled Vegetables Other than Potatoes;v_f		
+Butter and Margarine;vol		
+Other Edible Oil and Fats;vol		
+Clothing Material	 Other Articles of Clothing and Clothing Accessories;wap	
+Garments;wap		
+Passenger Transport by Sea and Inland Waterway;wtp		
+Water Utility ;wtr		
+Games of Chance;unmatched		
+Garden and Pets;unmatched		
+Other Personal Effects;unmatched		
