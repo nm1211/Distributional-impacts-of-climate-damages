@@ -15,9 +15,9 @@ This file explains files used for our analysis.
 Data is available upon request.
 
 ## MRIO 
-- Data_ref_clean: relative changes in household consumption for all 10 GTAP items considered (based on Main.R) and used in GTAP_food_price_increases_country_consumption_weighted_clean.py
-- Gtap_10_schablone_world_market_prices: initial shocks as by Calzadilla et al. (2013) for all sectors in all countries (only the relevant sectors have different entries (different than 1))
-- region_sch: an array translating country names to GTAP regions.
+- Data_ref_clean: Data_ref_clean.csv, relative changes in household consumption for all 10 GTAP items considered (based on Main.R) and used in GTAP_food_price_increases_country_consumption_weighted_clean.py
+- Gtap_10_schablone_world_market_prices: Gtap_10_schablone_world_market_prices.csv, initial shocks as by Calzadilla et al. (2013) for all sectors in all countries (only the relevant sectors have different entries (different than 1))
+- region_sch: region_sch.csv, an array translating country names to GTAP regions.
 
 ## Senstivity Analysis
   - total_value_capture_per_sector_change_in_Mio_USD: total_value_capture_per_sector_change_in_Mio_USD.xlsx, Total value captured in million USD per each sector (based on Shock_demand_overall_for_production_for_C3_clean.py)
