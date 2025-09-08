@@ -23,7 +23,7 @@ Data is available upon request.
 ## GTAP_food_price_increases_country_consumption_weighted_clean.py: Provides price changes for GTAP sector based MRIO 
 - Python code to diffuse the price shocks throughout global supply chain system considering consumption relations/shares
 -  Output file is used in main analysis (Main.R)
-## Shock_demand_overall_for_production_for_C3_clean.py: 
+## Shock_demand_overall_for_production_for_C3_clean.py
 - Python code for approximating the overall production impacts and global share shifts for C3, it includes:
 - Output file is isued in the Sensitivity Analysis: Income Effects (SA_income effects.R)
   
