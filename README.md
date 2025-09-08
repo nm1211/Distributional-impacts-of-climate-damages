@@ -12,17 +12,21 @@ This file explains files used for our analysis.
 - gini_coefficient: Gini coefficient from the WDI (latest estimate for each country), available in: https://data.worldbank.org/indicator/SI.POV.GINI
 - latitude: Latitude from the CSGNetwork (2021), available in: http://www.csgnetwork.com/llinfotable.html
 - country codes: To merge data files from GCD countries to GTAP countries, country codes are used from Aguiar et al. (2019), Table A.3. Available in: https://lpvageojs02.it.purdue.edu/ojs/index.php/jgea/article/view/77/96
-
 Data is available upon request.
 
+## MRIO 
+- Data_ref_clean: relative changes in household consumption for all 10 GTAP items considered (based on Main.R) and used in GTAP_food_price_increases_country_consumption_weighted_clean.py
+- Gtap_10_schablone_world_market_prices: initial shocks as by Calzadilla et al. (2013) for all sectors in all countries (only the relevant sectors have different entries (different than 1))
+- region_sch: an array translating country names to GTAP regions.
+
 ## Senstivity Analysis
-  - total_value_capture_per_sector_change_in_Mio_USD: total_value_capture_per_sector_change_in_Mio_USD.xlsx, Total value captured in million USD per each sector
+  - total_value_capture_per_sector_change_in_Mio_USD: total_value_capture_per_sector_change_in_Mio_USD.xlsx, Total value captured in million USD per each sector (based on Shock_demand_overall_for_production_for_C3_clean.py)
   - own_price_elasticity: own price elasticity.xlsx, own prices elasticities based on Muhammad et al (2011), available in https://www.ers.usda.gov/publications/pub-details?pubid=47581 
 
 # Files for Data:
 ## GTAP_food_price_increases_country_consumption_weighted_clean.py: Provides price changes for GTAP sector based MRIO 
 - Python code to diffuse the price shocks throughout global supply chain system considering consumption relations/shares
--  Output file is used in main analysis (Main.R)
+- Output file is used in main analysis (Main.R)
 ## Shock_demand_overall_for_production_for_C3_clean.py
 - Python code for approximating the overall production impacts and global share shifts for C3, it includes:
 - Output file is isued in the Sensitivity Analysis: Income Effects (SA_income effects.R)
