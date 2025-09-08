@@ -4,7 +4,6 @@ This file explains files used for our analysis.
 # Data used and their sources
 ## Main Analysis
 - gcd_raw: household consumption from the Global Consumption Database (GCD), available in: https://datatopics.worldbank.org/consumption/detail
-- price_vec: cons_consumptionpatterns_increases_in_prices_through_system_world_market.xlsx, price changes for GTAP sectors based on MRIO
 - gcd_mapper: Appendix_mapping_GCD_GTAP.csv, mapper to match GTAP sectors (GTAP version 10) to GCD data.
   The matching procedure is based on Dorband et al. (2019), who matched GTAP sectors (version 9) with GCD data. Available in: https://www.sciencedirect.com/science/article/pii/S0305750X18304212#s0130 
 - per_capita_consumption: from the GCD, available in: https://datatopics.worldbank.org/consumption/detail 
@@ -20,6 +19,14 @@ Data is available upon request.
   - total_value_capture_per_sector_change_in_Mio_USD: total_value_capture_per_sector_change_in_Mio_USD.xlsx, Total value captured in million USD per each sector
   - own_price_elasticity: own price elasticity.xlsx, own prices elasticities based on Muhammad et al (2011), available in https://www.ers.usda.gov/publications/pub-details?pubid=47581 
 
+# Files for Data:
+## GTAP_food_price_increases_country_consumption_weighted_clean.py: Provides price changes for GTAP sector based MRIO 
+- Python code to diffuse the price shocks throughout global supply chain system considering consumption relations/shares
+-  Output file is used in main analysis (Main.R)
+## Shock_demand_overall_for_production_for_C3_clean.py: 
+- Python code for approximating the overall production impacts and global share shifts for C3, it includes:
+- Output file is isued in the Sensitivity Analysis: Income Effects (SA_income effects.R)
+  
 # File(s) for analysis:
 ## Main.R: main r script includes:
 - Data cleaning, structuring and merge.
